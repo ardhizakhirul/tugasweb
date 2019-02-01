@@ -1,0 +1,305 @@
+body{
+  padding: 0px;
+  width: 100%;
+}
+div.menu{
+  width:100%;
+   background-color: #ffff00;
+}
+div.menu ul img{
+  width: auto;
+  height: 50px;
+}
+div.menu ul{
+  width:100%;
+   background-color: #ffff00;
+  display: block;
+  list-style-type: none;
+    float:right;
+  padding:0;
+  margin: 0;
+
+}
+div.menu ul li{
+  float:right;
+}
+div.menu ul li a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  display: block;
+  margin:0;
+  padding:5px 15px;
+  text-align:center;
+  letter-spacing:2px;
+  margin-top: 10px;
+font-family: sans-serif;
+}
+.bg{
+  width: 100%;
+  background-image: url("alunalun.jpg" );
+  height:500px;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: alpha(opacity 50;)
+  opacity: 0.5;
+  padding-top: -50px;
+  float: left;
+
+}
+div.menu ul li a:hover{
+  border-bottom: 3px solid #000;
+}
+div.gelap{
+  width: 100%;
+  height: 500px;
+  margin:0;
+  background: #000;
+  opacity:0.7;
+  float: left;
+}
+div.gelap h1{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+   padding-top: 80px;
+}
+div.gelap h1 img{
+  width: 100px;
+  height: auto;
+
+}
+div.bg h1{
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  top: 100px;
+  left:350px;
+}
+
+div.about{
+  width: 100%;
+  height: 400%;
+}
+div.about .left{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+div.about .left h1{
+  text-align: right;
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  border-right: 5px solid yellow;
+  padding-right: 20px;
+}
+div.about .left p{
+  text-align: right;
+}
+div.about .right{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+div.about .right img{
+  width: 310px;
+  height: auto;
+  border: 10px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+div.wisata{
+  width:100%;
+  height: 800px;
+  float: left;
+  margin-top: 40px;
+background: linear-gradient(#afab80,300px, white 500px)
+}
+div.wisata h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  color:#000;
+}
+div.wisata div.box{
+  width: 30%;
+  height: 350px;
+  margin: 20px;
+  float: left;
+
+}
+
+div.wisata .deskripsi h4{
+  color:#727d8e;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+div.bunder img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 20px double darkgray;
+margin-left: 80px;
+}
+
+div.kuliner{
+  width: 100%;
+  height: auto;
+ background: linear-gradient(#afab80,300px, yellow 500px)
+}
+div.kuliner .left{
+  width: 50%;
+  height: 400px;
+  float: left;
+   background: linear-gradient(#afab80,300px, yellow 500px)
+}
+div.kuliner .left img{
+  width: 310px;
+  height: auto;
+  border: 10px solid #000;
+  border-radius: 20px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+div.kuliner .right{
+  width: 50%;
+  height: 400px;
+  float: right;
+     background: linear-gradient(#afab80,300px, yellow 500px)
+}
+div.kuliner .right h1{
+  text-align: left;
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: 15;
+  border-left: 5px solid yellow;
+  padding-left: 20px;
+  margin-top: 100px;
+
+}
+div.kuliner .right p{
+  text-align: left;
+ margin-right: 50px;
+}
+div.kebudayaan{
+  width: 100%;
+  height: 400px;
+  padding-top: 100px;
+  background: #fff;
+}
+div.kebudayaan h1{
+  width: 100%;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 15;
+   float:left;
+  margin-left: 250px;
+  margin-right: 250px;
+  /* background-color:#ffff00; */
+   text-transform: uppercase;
+
+}
+div.kebudayaan .reog .img{
+  width: 50%;
+  float:left;
+}
+div.kebudayaan .reog .img img{
+  float: left;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 20px double darkgray;
+  margin-left: 150px;
+}
+
+div.kebudayaan .reog .deskrip{
+  width: 50%;
+  float: right;
+  padding-top: 60px;
+}
+
+div.kebudayaan .reog .deskrip h3{
+  text-transform: uppercase;
+ font-family: sans-serif;
+ font-size: 30px;
+ font-weight: 10;
+}
+
+div.jaranan{
+  width: 100%;
+  height: auto;
+}
+div.jaranan .imag{
+  width: 50%;
+  float: right;
+  padding-top:150px;
+}
+div.jaranan .imag img{
+  float: right;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 20px double darkgray;
+  margin-right: 150px;
+}
+div.jaranan .deskripsi{
+  width: 50%;
+  padding-top: 150px;
+  float: left;
+}
+
+div.jaranan .deskripsi h3{
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 10;
+}
+
+div.kentrung{
+  width: 100%;
+  height:auto;
+}
+
+div.kebudayaan .kentrung .img{
+ width:50%;
+ float:left;
+ padding-top: 150px;
+}
+div.kebudayaan .kentrung .img img{
+  float: left;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 20px double darkgray;
+  margin-left: 150px;
+
+
+}
+
+div.kebudayaan .kentrung .deskrip{
+  width: 50%;
+  float: right;
+  padding-top: 150px;
+}
+
+div.kebudayaan .kentrung .deskrip h3{
+  text-transform: uppercase;
+ font-family: sans-serif;
+ font-size: 30px;
+ font-weight: 10;
+}
